@@ -1,0 +1,102 @@
+/* common design */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+    width: 160px;
+    height: 64px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-secondary{
+    border-radius: 5px;
+    background: white;
+    border: 0;
+    width: 160px;
+    height: 64px;
+    padding: 20px;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+nav{
+    /* width: 1600px; */
+    height: 808px;
+    background-image: url('./images/banner/banner1.png');  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.content-header{
+
+    display: flex;
+    justify-content: end;
+    padding-top: 250px;
+    padding-right: 300px;
+    
+}
+
+.content-element h1{
+    color: #151414;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.content-element p{
+    color: #444343;
+text-align: right;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 32px;
+}
+.contact-btn{
+    display: flex;
+    justify-content: end;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.done-things{
+    display: flex;
+    align-items: center;
+}
+
+.image-content{
+
+/* width: 1140px; */
+height: 300px;
+margin: 200px;
+  background-image: url('./images/watch.png');
+  /* background-image: url(./images/gradient2.png);   */
+
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
