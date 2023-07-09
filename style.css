@@ -9,6 +9,7 @@ body{
 
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    /* max-width: 1600px; */
 }
 
 .btn-primary{
@@ -90,13 +91,119 @@ margin-bottom: 32px;
 .image-content{
 
 /* width: 1140px; */
-height: 300px;
-margin: 200px;
-  background-image: url('./images/watch.png');
+
+  background-image:  url('./images/gradient3.png'), url('./images/watch.png');
   /* background-image: url(./images/gradient2.png);   */
 
   background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
+    border-radius: 8px;
+    height: 300px;
+    margin: 200px;
+}
+
+.image-content{
+    padding-top: 60px;
+    padding-left: 65px;
+}
+
+.text-onImage{
+    color: #FFF;
+    
+    font-size: 40px;
+
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+
+.foot-section{
+    height: 577px;
+    background-color: #151414;
+}
+
+.para{
+    color: #FFF;
+  
+    font-size: 16px;
+
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.phone, .emailCls{
+    color: #FFF;
+  
+    font-size: 16px;
+
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Icons{
+    display: flex;
+  
+}
+
+.left-side{
+    padding-top: 130px;
+    padding-left: 230px;
+
+}
+
+.ic{
+    margin: 5px;
+}
+
+.right-side{
+   
+    padding-top: 130px;
+    padding-right: 229px;
+}
+
+.subs{
+    color: #FFF;
+
+    font-size: 25px;
+
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+
+.emailcls{
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    margin-bottom: 16px;
+    background-color: #151414;
+
+}
+
+.emailcls::placeholder{
+    color:#F3F3F3;
+
+font-size: 18px;
+
+font-weight: 400;
+padding-left: 21px;
+padding-top: 21px;
+
+}
+
+
+.foot-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.emailSub{
+    display: flex;
+    flex-flow: column;
 }
